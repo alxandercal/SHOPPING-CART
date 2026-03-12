@@ -13,7 +13,7 @@ export function renderProducts(gridEl,products,onAdd){
         <div class="col-12 col-sm-6 col-lg-4">
             <div class="card h-100 shadow-sm">
                 <img class="card-img-top card-product-img" src="${p.imageUrl}" alt="${p.name}">
-                <div class="card-body d-flex flex-columns">
+                <div class="card-body d-flex flex-column">
                     <div class="d-flex justify-content-between aling-items-start gap-2">
                         <h5 class="card-title mb-1">${p.name}</h5>
                         <span class="badge text-bg-dark price">
